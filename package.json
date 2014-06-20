@@ -1,5 +1,5 @@
 {
-  "name": "request-tasks",
+  "name": "json2csv",
   "version": "0.1.0",
   "description": "Converts JSON input on STDIN to CSV output on STDOUT",
   "main": "lib/index.js",
@@ -10,7 +10,7 @@
   "license": "MIT",
   "preferGlobal": "true",
   "bin": {
-    "json2csv": "bin/json2csv"
+    "json2csv": "bin/json2csv.js"
   },
   "dependencies": {
     "lodash": "^2.4.1",
