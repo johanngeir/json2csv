@@ -1,7 +1,7 @@
 json2csv
 ========
 
-Converts JSON input to CSV
+Converts JSON input on STDIN to CSV output on STDOUT
 
-Command line usage:
+Usage:
 	<json array> | json2csv

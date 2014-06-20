@@ -1,0 +1,19 @@
+{
+  "name": "request-tasks",
+  "version": "0.1.0",
+  "description": "Converts JSON input on STDIN to CSV output on STDOUT",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jóhann Geir Jónsson",
+  "license": "MIT",
+  "preferGlobal": "true",
+  "bin": {
+    "json2csv": "bin/json2csv"
+  },
+  "dependencies": {
+    "lodash": "^2.4.1",
+    "minimist": "^0.1.0"
+  }
+}
